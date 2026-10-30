@@ -1,0 +1,11 @@
+node_modules
+.next
+design.zip
+design/preview-*.png
+design/screen-*.png
+app/app/design
+app/tailwind.config.ts
+.env*
+!.env.example
+app/.env*
+!app/.env.example

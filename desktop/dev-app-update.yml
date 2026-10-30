@@ -1,0 +1,3 @@
+# Solo para probar sin empaquetar (MENTEACTIVA_UPDATE_FEED). La app instalada usa la configuración que genera electron-builder.
+provider: generic
+url: http://127.0.0.1:4000

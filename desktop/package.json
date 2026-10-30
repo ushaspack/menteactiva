@@ -1,0 +1,22 @@
+{
+  "name": "menteactiva-plagio0-desktop",
+  "productName": "MenteActiva Plagio 0",
+  "version": "0.1.0",
+  "description": "MenteActiva · Plagio 0 para escritorio",
+  "main": "main.cjs",
+  "private": true,
+  "author": "MenteActiva",
+  "scripts": {
+    "prepare-bundle": "node scripts/prepare.mjs",
+    "start": "electron .",
+    "dist": "electron-builder --config electron-builder.config.cjs",
+    "dist:dir": "electron-builder --dir --config electron-builder.config.cjs"
+  },
+  "dependencies": {
+    "electron-updater": "^6.8.11"
+  },
+  "devDependencies": {
+    "electron": "^45.1.0",
+    "electron-builder": "^26.18.0"
+  }
+}

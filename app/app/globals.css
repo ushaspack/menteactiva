@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import "./design/tokens.css";
+@config "../tailwind.config.ts";
+
+/* lo que tokens.css no cubre */
+@layer base {
+  * { box-sizing: border-box; }
+  a { color: inherit; }
+}
+@keyframes shimmer { 0% { opacity: .5; } 50% { opacity: 1; } 100% { opacity: .5; } }
+.skeleton { background: var(--color-surface-raised); border-radius: var(--radius-md); animation: shimmer 1.4s var(--ease) infinite; }
+@media (prefers-reduced-motion: reduce) { .skeleton { animation: none; } }
